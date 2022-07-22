@@ -1,3 +1,10 @@
+:root {
+    --whiteWords: #fff;
+    --jetgreen: #0dffc4;
+    --dark: #020611;
+    --lightDark: #141a2c;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,9 +12,220 @@
     box-sizing: border-box;
 }
 
+.purp {
+    color: var(--jetPurple);
+}
+
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(../img/particles.jpg);
+    background-image: url(../assets/particles.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+
+.logo {
+    color: var(--whiteWords);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: var(--jetgreen);
+}
+
+nav ul li { 
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+nav ul li :hover {
+    color: var(--jetgreen);
+    transition: .5s;
+}
+
+nav ul li a {
+    color: var(--whiteWords);
+    text-decoration: none;
+}
+
+.btn {
+    color: var(--whiteWords);
+    border: 1px solid var(--jetgreen);
+    border-radius: 30px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: var(--jetgreen);
+    border: transparent;
+    transition: .5s;
+    color: var(--dark);
+}
+
+.intro {
+    position: absolute;
+    top: 46%;
+    left: 5%;
+}
+
+.intro p {
+    color: var(--whiteWords);
+    font-size: 30px;
+}
+
+h2 {
+    color: var(--whiteWords);
+    font-size: 70px;
+    margin: 20px 0px 20px;
+}
+
+#me {
+    width: 100%;
+    background-color: var(--dark);
+    padding: 100px 0px;
+}
+
+#me img {
+    height: auto;
+    width: 500px;
+}
+
+.about-info {
+    width: 550px;
+}
+
+.about-info h3 {
+    color: var(--jetgreen);
+    font-size: 50px;
+}
+
+.about-info p {
+    color: var(--whiteWords);
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+#main {
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main h4 {
+    color: var(--jetgreen);
+    margin: 2px;
+    padding-bottom: 5px
+}
+
+button {
+    color: var(--whiteWords);
+    background: transparent;
+    border-style: none;
+    border: solid 1px var(--jetgreen);
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--jetgreen);
+    border: transparent;
+    transition: .5s;
+    color: var(--dark);
+}
+
+#projects {
+    background-color: var(--dark);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title {
+    font-size: 60px;
+    color: var(--jetgreen);
+    text-align: center;
+    margin: 30px auto;
+    padding-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#large {
+    width: 100%;
+    height: 300px;
+    max-width: 97%;
+    margin: 20px;
+}
+
+.card {
+    height: 365px;
+    width: 50%;
+    padding: 20px 35px;
+    background: var(--lightDark);
+    border-radius: 20px;
+    margin: 5px 20px 5px 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    height: 70px;
+    width: 70px;
+}
+
+.card p {
+    color: var(--whiteWords);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: var(--jetgreen);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#contact {
+    width: 100%;
+    background-color: var(--dark);
+    padding: 80px 0px;
+}
+
+#contact p {
+    color: var(--whiteWords);
+}
+
+.spread ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+
+.spread img {
+    width: 50px;
+    height: auto;
 }
 

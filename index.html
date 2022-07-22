@@ -12,17 +12,94 @@
 </head>
 
 <body>
-    <!--The background hero section -->
-    <div class="her0">
+    <!--The background hero section-->
+    <div class="hero" id="home">
         <nav>
-            <h2 class="logo">LTP</h2>
-            <ui>
-                <li><a herf="#">Home</a></li>
-                <li><a herf="#">About me</a></li>
-                <li><a herf="#">Projects</a></li>
-            </ui>
-            <a href="#" class="btn">Contact</a>
+            <h1 class="logo">L<span>T</span>P</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            <a href="#contact" class="btn">Contact</a>
         </nav>
+        <div class="intro">
+            <p><span>Hello</span>, my name is</p>
+            <h2>Lucas Tyler Polk</h2>
+            <p>I'm a <span>web developer</span></p>
+        </div>
+    </div>
+
+    <!--The About Me section-->
+    <section id="me">
+        <div id="main">
+            <img src="https://i.postimg.cc/sgDHNkbz/web.png">
+            <div class="about-info">
+                <h3>About Me</h3>
+                <h4>Developer x Designer</h4>
+                <p>
+                    I'm a web developer with a lot of graphic design inspiration. My work is very minimal and contemporary. My code is clean and easy to understand, which make me a very unique and useful person for your business. My goals when it come to building webpages or anything for that matter is to make it as accessible and easy as possible.
+                </p>
+                <button type="button">Resume</button>
+            </div>
+        </div>
+    </section>
+
+    <!--The Projects section-->
+    <div id="projects">
+        <h4 class="title">Projects</h4>
+        <div class="card" id="large">
+            <img src="assets/icons8-natural-food-90.png"/>
+            <h5>Green Leaf</h5>
+            <div class="descript">
+                <p>
+                     Green leaf is the first webpage I created. The theme of this site was a healthy eating company sort of like Hello fresh. I designed and made the logo along with a couple of the icons used in this webpage.
+                </p>
+                <p style="text-align: center">
+                     <a href="https://codepen.io/T-YWorld/full/BamzQwj" target="_blank" class="btn">More</a>
+                </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="card">
+                <img src="assets/icons8-e-learning-90.png">
+                <h5>Css Cheat Sheet</h5>
+                <div class="descript">
+                    <p>
+                        My Css Cheat sheet was made so that whenever I am making a new webpage I can reference to the cheat sheet for all the advanced css properties. This makes coding a lot less difficult and more efficient.
+                    </p>
+                    <p style="text-align: center">
+                        <a href=" https://ukn-tye.github.io/cssCheatSheet/" target="_blank" class="btn">More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/icons8-calculator-90.png">
+                <h5>Javascript Calculator</h5>
+                <div class="descript">
+                    <p>
+                        This is the first javascript project i've created. It's a simple but very useful source. Thsi is also probaly one of the best ways to showcase your JavaScript programming.
+                    </p>
+                    <p style="text-align: center">
+                        <a href="#" class="btn">More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Contact section-->
+    <div id="contact">
+        <h5 style="text-align: center">Contact Me</h5>
+        <p style="text-align: center">Here are a few different ways to reach me</p>
+        <div class="spread">
+            <ul>
+                <li><img src="assets/icons8-facebook-60.png" a href=""></li>
+                <li><img src="assets/icons8-github-60.png" a href=""></li>
+                <li><img src="assets/icons8-linkedin-circled-60.png" a href=""></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
