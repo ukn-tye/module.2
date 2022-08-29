@@ -12,14 +12,10 @@
     box-sizing: border-box;
 }
 
-.purp {
-    color: var(--jetPurple);
-}
-
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(../assets/particles.jpg);
+    background-image: url(./particles.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -189,8 +185,8 @@ button:hover {
 }
 
 .card img {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
 }
 
 .card p {
